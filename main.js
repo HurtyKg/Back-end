@@ -39,7 +39,7 @@ function deleteUser(id){
  .then(response => console.log(response))
  .catch(error => console.error(error))
 }
-deleteUser()
+deleteUser(2)
 
 getUsers()
 getUser(1)
@@ -49,13 +49,13 @@ const newUser = {
   avatar: "https://www.instagram.com/p/Ci-Y9yUO66o/",
   city: "Leeds"
 }
-// addNewUser()
+addNewUser()
 
 const userUpdate = {
   name : "kylian mbappé",
   avatar : "https://www.instagram.com/p/CpqrATUD4O6/",
   city: "19º arrondissement de Paris"
 }
-// updateUser(2, userUpdate)
+updateUser(2, userUpdate)
 
 
